@@ -1,5 +1,10 @@
 // stack implementation using linkded list
-import Node from "./node";
+class Node {
+  constructor(value) {
+    this.value = value;
+  }
+  next = null;
+}
 class Stack {
   constructor() {
     this.top = null;
